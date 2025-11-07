@@ -2,7 +2,7 @@
 
 This project is a collection of implemantation of the Gang of Four(GoF) design patterns using the Ruby.
 
-The aim is provide clear and concise example of each pattern, demonstraiting their use and benefits in real-world scenarios.
+The aim is provide clear and concise example of each pattern, demonstrating their use and benefits in real-world scenarios.
 
 
 ## References
