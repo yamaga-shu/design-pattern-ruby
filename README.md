@@ -1,6 +1,6 @@
 # Design Pattern in Ruby
 
-This project is a collection of implementation of the Gang of Four(GoF) design patterns using the Ruby.
+This project is a collection of implementation of the Gang of Four (GoF) design patterns using Ruby.
 
 The aim is provide clear and concise example of each pattern, demonstrating their use and benefits in real-world scenarios.
 
