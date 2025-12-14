@@ -1,0 +1,6 @@
+# lib/iterator/
+
+interface _Iterator[T]
+  def has_next: -> bool
+  def next: -> T
+end

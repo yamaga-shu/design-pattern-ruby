@@ -1,0 +1,16 @@
+# TypeProf 0.31.0
+
+# lib/iterator/bookmark_nav.rb
+class BookmarkNav
+  include _Iterable[Bookmark]
+
+  @bookmarks: Array[Bookmark]
+  @last_index: Integer
+
+  def bookmarks: -> Array[Bookmark]
+
+  def initialize: (Array[Bookmark]?) -> void
+  def get_bookmark_at: (Integer) -> Bookmark
+  def append_bookmark: (Bookmark) -> Integer
+  def get_length: -> Integer
+end
