@@ -6,6 +6,4 @@ class BookmarkNavIterator
   @index: Integer
 
   def initialize: (BookmarkNav) -> void
-  def has_next?: -> bool
-  def next: -> Bookmark
 end
