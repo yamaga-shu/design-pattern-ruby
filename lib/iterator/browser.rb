@@ -2,7 +2,7 @@
 
 require_relative 'bookmark_nav'
 
-# Browser represents WebBrowsesr which has bookmark navigation
+# Browser represents WebBrowser which has bookmark navigation
 class Browser
   def open_bookmark_nav
     BookmarkNav.new []
