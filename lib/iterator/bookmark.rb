@@ -8,4 +8,12 @@ class Bookmark
     @url = url
     @disp_name = disp_name
   end
+
+  def get_url
+    @url
+  end
+
+  def get_disp_name
+    @disp_name
+  end
 end

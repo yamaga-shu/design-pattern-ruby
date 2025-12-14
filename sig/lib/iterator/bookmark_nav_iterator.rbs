@@ -1,0 +1,11 @@
+# lib/iterator/bookmark_nav_iterator.rb
+class BookmarkNavIterator
+  include _Iterator[Bookmark]
+
+  @bookmark_nav: BookmarkNav
+  @index: Integer
+
+  def initialize: (BookmarkNav) -> void
+  def has_next?: -> bool
+  def next: -> Bookmark
+end

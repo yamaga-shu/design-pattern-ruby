@@ -1,0 +1,5 @@
+# lib/iterator/
+
+interface _Iterable[T]
+  def iterator: -> _Iterator[T]
+end
