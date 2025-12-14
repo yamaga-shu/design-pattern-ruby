@@ -1,0 +1,6 @@
+# TypeProf 0.31.0
+
+# lib/iterator/browser.rb
+class Browser
+  def open_bookmark_nav: -> BookmarkNav
+end

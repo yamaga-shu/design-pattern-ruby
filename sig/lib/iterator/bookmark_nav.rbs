@@ -1,0 +1,9 @@
+# TypeProf 0.31.0
+
+# lib/iterator/bookmark_nav.rb
+class BookmarkNav
+  def bookmarks: -> Array[Bookmark]
+
+  def initialize: (Array[Bookmark]) -> void
+  def append_bookmark: (Bookmark) -> Integer
+end

@@ -6,8 +6,8 @@ require_relative 'bookmark'
 class BookmarkNav
   attr_reader :bookmarks
 
-  def initialize
-    @bookmarks = []
+  def initialize(bookmarks)
+    @bookmarks = bookmarks
   end
 
   def append_bookmark(bookmark)
