@@ -46,7 +46,9 @@ task :typeprof do
 
       # Generate RBS for this specific file
       puts "Generating #{rbs_path} from #{ruby_file}"
-      system("bundle exec typeprof #{ruby_file} > #{rbs_path}")
+      File.open(rbs_path, 'w') do |f|
+        system('bundle', 'exec', 'typeprof', ruby_file, out: f)
+      end
     end
   end
 end
