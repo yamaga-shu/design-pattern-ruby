@@ -9,6 +9,8 @@ class BrowserTest < Minitest::Test
   end
 
   def test_can_open_bookmark_nav
-    @browser.open_bookmark_nav
+    bookmark_nav = @browser.open_bookmark_nav
+
+    assert_instance_of BookmarkNav, bookmark_nav
   end
 end
