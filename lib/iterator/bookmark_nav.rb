@@ -9,7 +9,6 @@ class BookmarkNav
 
   def initialize(bookmarks = [])
     @bookmarks = bookmarks
-    @last_index = 0
   end
 
   def get_bookmark_at(index)
