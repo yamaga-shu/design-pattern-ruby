@@ -2,6 +2,7 @@
 
 require 'minitest/autorun'
 require_relative '../../lib/iterator/bookmark_nav'
+require_relative '../../lib/iterator/bookmark'
 
 class BookmarkNavTest < Minitest::Test
   def setup
