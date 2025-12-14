@@ -2,6 +2,7 @@
 
 require 'minitest/autorun'
 require_relative '../../lib/iterator/browser'
+require_relative '../../lib/iterator/bookmark_nav'
 
 class BrowserTest < Minitest::Test
   def setup
