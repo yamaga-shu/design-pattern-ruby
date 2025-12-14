@@ -3,10 +3,6 @@
 # lib/iterator/bookmark.rb
 class Bookmark
   def url: -> String
-  def url=: (String) -> String
   def disp_name: -> String
-  def disp_name=: (String) -> String
   def initialize: (String, String) -> void
-  def get_url: -> String
-  def get_disp_name: -> String
 end

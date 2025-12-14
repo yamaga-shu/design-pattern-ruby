@@ -62,8 +62,8 @@ class BrowserTest < Minitest::Test
     while iterator.has_next?
       bookmark = iterator.next
       assert_instance_of Bookmark, bookmark
-      assert_instance_of String, bookmark.get_url
-      assert_instance_of String, bookmark.get_disp_name
+      assert_instance_of String, bookmark.url
+      assert_instance_of String, bookmark.disp_name
       count += 1
     end
 

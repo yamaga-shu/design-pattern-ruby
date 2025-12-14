@@ -13,12 +13,12 @@ class BookmarkTest < Minitest::Test
     assert_equal 'Example Site', @bookmark.disp_name
   end
 
-  def test_get_url
-    assert_equal 'https://example.com', @bookmark.get_url
+  def test_url
+    assert_equal 'https://example.com', @bookmark.url
   end
 
-  def test_get_disp_name
-    assert_equal 'Example Site', @bookmark.get_disp_name
+  def test_disp_name
+    assert_equal 'Example Site', @bookmark.disp_name
   end
 
   def test_url_is_accessible
@@ -29,22 +29,6 @@ class BookmarkTest < Minitest::Test
   def test_disp_name_is_accessible
     assert_respond_to @bookmark, :disp_name
     assert_instance_of String, @bookmark.disp_name
-  end
-
-  def test_url_can_be_modified
-    new_url = 'https://newexample.com'
-    @bookmark.url = new_url
-
-    assert_equal new_url, @bookmark.url
-    assert_equal new_url, @bookmark.get_url
-  end
-
-  def test_disp_name_can_be_modified
-    new_name = 'New Site Name'
-    @bookmark.disp_name = new_name
-
-    assert_equal new_name, @bookmark.disp_name
-    assert_equal new_name, @bookmark.get_disp_name
   end
 
   def test_multiple_bookmarks_are_independent
